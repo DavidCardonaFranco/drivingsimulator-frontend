@@ -2,7 +2,7 @@ var emailElement = document.getElementById("inputEmail");
 var passElement = document.getElementById("inputPassword");
 
 function login(){
-    localStorage.setItem("email", emailElement.value);
+    localStorage.setItem("user", emailElement.value);
     localStorage.setItem("password", passElement.value);
     document.location.href="../html/main.html";
     //window.location.assign("/path");

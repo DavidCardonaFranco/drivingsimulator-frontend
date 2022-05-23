@@ -10,13 +10,27 @@
 </head>
 <body>
     <div class="container my-3 p-3">
+        
+        <div class="espacioblanco">
+            <div class="row" id="user">Usuario: </div>
+            <div class="row" id="date">Fecha:</div>
+            <div class="row" id="time">Tiempo:</div>
+            <div class="row">
+                <div class="col">
+                    <div onclick="terminar()" id="botonterminar" class="btn btn-success">Terminar Intento</div>
+                </div>
+                
+            </div>
+        </div>
         <div class="row">
-            <div class="espacioblanco">
+            
+            <div class="espacioblanco" id="gameDiv"></div>
         </div>
         
     </div>
 
-    <script src="../scripts/mainscripts.js"></script>
+    <script src="../librerias/p5js/p5.min.js"></script>
+    <script src="../scripts/gamescripts.js"></script>
     <script src="../librerias/bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
 </body>
 </html>

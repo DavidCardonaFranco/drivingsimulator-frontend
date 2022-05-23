@@ -9,36 +9,62 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="container my-3 p-3">
-        <h1>Ingrese sus datos para el registro</h1>
+    <header class="bg_animate">
+        <div class="header_nav">
+            <div class="contenedor">
+                <h1>Ingrese sus datos para el registro</h1>
+                <nav>
+                    <a href="main.html">Inicio</a>
+                    <a href="login.html">Ingresar</a>
+                    <a href="us.html">Sobre nosotros</a>
+                </nav>
+            </div>
+        </div>
 
-        <!-- cedula nombre edad pass -->
+        <section class="banner contenedor">
+            <secrion class="banner_title">
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Nombre completo</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Nombre de usuario</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Cedula Ciudadan</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Edad</label>
+                        <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Registrar</button>
+                </form>
+            </secrion>
+            <div class="banner_img">
+                <img src="../assets/i.gif" alt="">
+            </div>
+        </section>
 
-        <form>
-            <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Nombre de usuario</label>
-                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            </div>
-            <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Nombre</label>
-                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            </div>
-            <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Cedula</label>
-                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            </div>
-            <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Edad</label>
-                <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            </div>
-            <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
-            </div>
-            <button type="submit" class="btn btn-primary">Registrar</button>
-        </form>
-
-    </div>
+        <div class="burbujas">
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+        </div>
+    </header>
 
     <script src="../scripts/singinscript.js"></script>
     <script src="../librerias/bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>

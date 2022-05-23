@@ -77,7 +77,7 @@ function terminar(){
 
 function guardarDatos(){
     let lista = JSON.parse(localStorage.getItem("simulaciones"));
-    lista.push([localStorage.getItem("email"),new Date().toISOString().slice(0, 10),time])
+    lista.push([localStorage.getItem("user"),new Date().toISOString().slice(0, 10),time])
     localStorage.setItem("simulaciones",JSON.stringify(lista));
 }
 
